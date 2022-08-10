@@ -315,7 +315,7 @@ console.log( /love/i.test(str) ); // true
 
 ```js
 const reg = /^[1-9][0-9]{4,14}$/
-const isvalid = patrn.exec(s)
+const isvalid = reg.exec(s)
 ```
 
 校验用户账号合法性（只能输入5-20个以字母开头、可带数字、“_”、“.”的字串）：
